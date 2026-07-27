@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AMPERE — Electric Motorcycles</title><link rel="stylesheet" href="main.css"><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\
+
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+
+
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="#top" class="logo">RTY<span>.</span></a>
+    <nav class="nav-links">
+      <a href="#models">Models</a>
+      <a href="#specs">Specs</a>
+      <a href="#technology">Technology</a>
+      <a href="#reserve">Reserve</a>
+    </nav>
+    <div class="nav-cta">
+      <a href="#reserve" class="btn btn-primary">Configure yours</a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero" style="border-bottom:none; padding-top:88px;">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="eyebrow">— Electric motorcycles, engineered from the cell up</p>
+        <h1>Torque is<br><span class="hl">instant.</span><br>So is the future.</h1>
+        <p>AMPERE builds electric motorcycles around one idea: a motor with no delay, no idle, and no compromise. Three models, one drivetrain philosophy — silent until you're not.</p>
+        <div class="hero-actions">
+          <a href="#models" class="btn btn-primary">Explore the lineup</a>
+          <a href="#specs" class="btn btn-ghost">Compare specs</a>
+        </div>
+      </div>
+
+      <div class="schematic">
+        <svg class="bike-svg" viewBox="0 0 400 260" xmlns="http://www.w3.org/2000/svg">
+          <!-- wheels -->
+          <circle class="wheel" cx="82" cy="196" r="42"/>
+          <circle class="wheel" cx="322" cy="196" r="42"/>
+          <circle class="wheel" cx="82" cy="196" r="6" fill="#8B939B"/>
+          <circle class="wheel" cx="322" cy="196" r="6" fill="#8B939B"/>
+          <!-- frame -->
+          <path class="body-line" d="M82 196 L150 130 L230 130 L322 196"/>
+          <path class="body-line" d="M150 130 L172 90 L226 90"/>
+          <path class="accent-line" d="M226 90 L250 108 L230 130"/>
+          <!-- seat -->
+          <path class="fill-dark" d="M150 128 L220 118 L232 132 L160 140 Z"/>
+          <!-- battery pack -->
+          <rect class="fill-accent" x="168" y="140" width="70" height="30" rx="2"/>
+          <!-- motor hub -->
+          <circle class="accent-line" cx="230" cy="188" r="16"/>
+          <!-- handlebar -->
+          <path class="body-line" d="M172 90 L150 68"/>
+          <line class="body-line" x1="132" y1="60" x2="168" y2="60" stroke-width="4"/>
+          <!-- callouts -->
+          <g class="callout">
+            <line x1="203" y1="140" x2="203" y2="112"/>
+            <circle class="pin" cx="203" cy="140" r="2.4"/>
+            <text x="188" y="105">BATTERY PACK</text>
+          </g>
+          <g class="callout">
+            <line x1="230" y1="188" x2="290" y2="188"/>
+            <circle class="pin" cx="230" cy="188" r="2.4"/>
+            <text x="292" y="192">HUB MOTOR</text>
+          </g>
+          <g class="callout">
+            <line x1="150" y1="68" x2="96" y2="50"/>
+            <circle class="pin" cx="150" cy="68" r="2.4"/>
+            <text x="30" y="46">CONTROLLER</text>
+          </g>
+        </svg>
+      </div>
+    </div>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span class="ticker-item"><span class="unit">Range</span><span class="val">220</span><span class="unit">km</span></span>
+        <span class="ticker-item"><span class="unit">Top speed</span><span class="val">180</span><span class="unit">km/h</span></span>
+        <span class="ticker-item"><span class="unit">0–100 km/h</span><span class="val">3.1</span><span class="unit">s</span></span>
+        <span class="ticker-item"><span class="unit">Charge 20–80%</span><span class="val">24</span><span class="unit">min</span></span>
+        <span class="ticker-item"><span class="unit">Torque</span><span class="val">220</span><span class="unit">Nm</span></span>
+        <span class="ticker-item"><span class="unit">Battery</span><span class="val">14.2</span><span class="unit">kWh</span></span>
+        <span class="ticker-item"><span class="unit">Range</span><span class="val">220</span><span class="unit">km</span></span>
+        <span class="ticker-item"><span class="unit">Top speed</span><span class="val">180</span><span class="unit">km/h</span></span>
+        <span class="ticker-item"><span class="unit">0–100 km/h</span><span class="val">3.1</span><span class="unit">s</span></span>
+        <span class="ticker-item"><span class="unit">Charge 20–80%</span><span class="val">24</span><span class="unit">min</span></span>
+        <span class="ticker-item"><span class="unit">Torque</span><span class="val">220</span><span class="unit">Nm</span></span>
+        <span class="ticker-item"><span class="unit">Battery</span><span class="val">14.2</span><span class="unit">kWh</span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MODELS -->
+  <section id="models">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">— The lineup</p>
+          <h2>Three bikes, one drivetrain.</h2>
+        </div>
+        <p>Every AMPERE shares the same battery chemistry and motor architecture — tuned differently for the street, the track, and the trail.</p>
+      </div>
+
+      <div class="models-grid">
+
+
+
+
+
+
+        <div class="model-card">
+          <div class="model-tag">Gallery</div>
+          <img class="model-img" src="b1.jpg" alt="Cream scooter with maroon seat">
+          <h3>Scooter — Cream</h3>
+          <p class="model-desc">Light, quiet, built for the daily commute. Swappable battery means no fixed charging spot required.</p>
+          <div class="model-specs">
+            
+            <div><span>Range</span>140 km</div>
+            <div><span>Top speed</span>110 km/h</div>
+            <div><span>Charge</span>2.1 hrs</div>
+            <div><span>Weight</span>128 kg</div>
+          </div>
+          <div class="model-price">
+            <div class="price">$8,400 <small>USD</small></div>
+            <a href="#reserve" class="btn btn-ghost" style="padding:10px 18px;">Configure</a>
+          </div>          
+          <p class="model-desc">Showroom sample with quilted seat and classic styling.</p>
+          <div class="model-price">
+            <div class="price">—</div>
+            <a href="#reserve" class="btn btn-ghost" style="padding:10px 18px;">View</a>
+          </div>
+        </div>
+
+        <div class="model-card">
+          <div class="model-tag">Gallery</div>
+          <img class="model-img" src="b2.jpg" alt="Green classic scooter front view">
+          <h3>Scooter — Emerald</h3>
+          <p class="model-desc">Light, quiet, built for the daily commute. Swappable battery means no fixed charging spot required.</p>
+          <div class="model-specs">
+            
+            <div><span>Range</span>140 km</div>
+            <div><span>Top speed</span>110 km/h</div>
+            <div><span>Charge</span>2.1 hrs</div>
+            <div><span>Weight</span>128 kg</div>
+          </div>
+          <div class="model-price">
+            <div class="price">$8,400 <small>USD</small></div>
+            <a href="#reserve" class="btn btn-ghost" style="padding:10px 18px;">Configure</a>
+          </div>          
+          <p class="model-desc">Classic front fascia and chrome-trimmed headlamp.</p>
+          <div class="model-price">
+            <div class="price">—</div>
+            <a href="#reserve" class="btn btn-ghost" style="padding:10px 18px;">View</a>
+          </div>
+        </div>
+
+        <div class="model-card">
+          <div class="model-tag">Gallery</div>
+          <img class="model-img" src="b3.jpg" alt="Grey adventure scooter with crash bars">
+          <h3>Scooter — Adventure</h3>
+          <p class="model-desc">Light, quiet, built for the daily commute. Swappable battery means no fixed charging spot required.</p>
+          <div class="model-specs">
+            
+            <div><span>Range</span>140 km</div>
+            <div><span>Top speed</span>110 km/h</div>
+            <div><span>Charge</span>2.1 hrs</div>
+            <div><span>Weight</span>128 kg</div>
+          </div>
+          <div class="model-price">
+            <div class="price">$8,400 <small>USD</small></div>
+            <a href="#reserve" class="btn btn-ghost" style="padding:10px 18px;">Configure</a>
+          </div>
+          <p class="model-desc">Rugged build with crash bars and touring ergonomics.</p>
+          <div class="model-price">
+            <div class="price">—</div>
+            <a href="#reserve" class="btn btn-ghost" style="padding:10px 18px;">View</a>
+          </div>
+        </div>
+
+        <div class="model-card">
+          <div class="model-tag">Gallery</div>
+          <img class="model-img" src="b4.jpg" alt="White scooter under blue lighting">
+          <h3>Scooter — White</h3>
+          <p class="model-desc">Light, quiet, built for the daily commute. Swappable battery means no fixed charging spot required.</p>
+          <div class="model-specs">
+            
+            <div><span>Range</span>140 km</div>
+            <div><span>Top speed</span>110 km/h</div>
+            <div><span>Charge</span>2.1 hrs</div>
+            <div><span>Weight</span>128 kg</div>
+          </div>
+          <div class="model-price">
+            <div class="price">$8,400 <small>USD</small></div>
+            <a href="#reserve" class="btn btn-ghost" style="padding:10px 18px;">Configure</a>
+          </div>
+          <p class="model-desc">Urban commuter variant shown under accent lighting.</p>
+          <div class="model-price">
+            <div class="price">—</div>
+            <a href="#reserve" class="btn btn-ghost" style="padding:10px 18px;">View</a>
+          </div>
+        </div>
+
+        <div class="model-card">
+          <div class="model-tag">Gallery</div>
+          <img class="model-img" src="b5.jpg" alt="White scooter under blue lighting">
+          <h3>Scooter — White</h3>
+          <p class="model-desc">Light, quiet, built for the daily commute. Swappable battery means no fixed charging spot required.</p>
+          <div class="model-specs">
+            
+            <div><span>Range</span>140 km</div>
+            <div><span>Top speed</span>110 km/h</div>
+            <div><span>Charge</span>2.1 hrs</div>
+            <div><span>Weight</span>128 kg</div>
+          </div>
+          <div class="model-price">
+            <div class="price">$8,400 <small>USD</small></div>
+            <a href="#reserve" class="btn btn-ghost" style="padding:10px 18px;">Configure</a>
+          </div>
+          <p class="model-desc">Urban commuter variant shown under accent lighting.</p>
+          <div class="model-price">
+            <div class="price">—</div>
+            <a href="#reserve" class="btn btn-ghost" style="padding:10px 18px;">View</a>
+          </div>
+        </div>
+
+        <div class="model-card">
+          <div class="model-tag">Gallery</div>
+          <img class="model-img" src="images/scooter6.jpg" alt="Black small scooter close-up front wheel">
+          <h3>Scooter — Sport</h3>
+          <p class="model-desc">Sporty compact scooter with exposed forks and alloy wheels.</p>
+          <div class="model-price">
+            <div class="price">$9,200 <small>USD</small></div>
+            <a href="#reserve" class="btn btn-ghost" style="padding:10px 18px;">Configure</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SPEC COMPARISON -->
+  <section id="specs">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">— Full spec sheet</p>
+          <h2>Side by side.</h2>
+        </div>
+        <p>Same battery cells, different tuning. Pick the bike that matches how you actually ride.</p>
+      </div>
+
+      <div class="compare-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Specification</th>
+              <th>Ampere One</th>
+              <th class="hi">Ampere RS</th>
+              <th>Ampere X</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Motor output</td>
+              <td>11 kW (continuous)</td>
+              <td class="hi">40 kW (continuous)</td>
+              <td>22 kW (continuous)</td>
+            </tr>
+            <tr>
+              <td>Peak torque</td>
+              <td>82 Nm</td>
+              <td class="hi">220 Nm</td>
+              <td>150 Nm</td>
+            </tr>
+            <tr>
+              <td>Battery capacity</td>
+              <td>5.8 kWh</td>
+              <td class="hi">14.2 kWh</td>
+              <td>11.6 kWh</td>
+            </tr>
+            <tr>
+              <td>Range (city cycle)</td>
+              <td>140 km</td>
+              <td class="hi">220 km</td>
+              <td>190 km</td>
+            </tr>
+            <tr>
+              <td>0–100 km/h</td>
+              <td>5.8 s</td>
+              <td class="hi">3.1 s</td>
+              <td>4.4 s</td>
+            </tr>
+            <tr>
+              <td>Top speed</td>
+              <td>110 km/h</td>
+              <td class="hi">180 km/h</td>
+              <td>140 km/h</td>
+            </tr>
+            <tr>
+              <td>DC fast charge (20–80%)</td>
+              <td>32 min</td>
+              <td class="hi">24 min</td>
+              <td>38 min</td>
+            </tr>
+            <tr>
+              <td>Curb weight</td>
+              <td>128 kg</td>
+              <td class="hi">176 kg</td>
+              <td>162 kg</td>
+            </tr>
+            <tr>
+              <td>Warranty (battery)</td>
+              <td>8 yrs / 100k km</td>
+              <td class="hi">8 yrs / 100k km</td>
+              <td>8 yrs / 100k km</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNOLOGY / FEATURES -->
+  <section id="technology" style="border-bottom:none; padding-bottom:0;">
+    <div class="wrap">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">— What's under the pack</p>
+          <h2>Built to be serviced,<br>not replaced.</h2>
+        </div>
+        <p>Every system on an AMPERE is modular. If a part wears out, it's swapped — not the whole bike.</p>
+      </div>
+    </div>
+    <div class="wrap" style="padding-bottom:0;">
+      <div class="features-grid">
+        <div class="feature">
+          <span class="fnum">A</span>
+          <div>
+            <h3>Regenerative braking</h3>
+            <p>Lever pressure feeds energy back into the pack — up to 18% more range in stop-start traffic.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <span class="fnum">B</span>
+          <div>
+            <h3>Swappable battery</h3>
+            <p>Pull the pack, drop in a charged one, ride again in under 90 seconds. No cable required.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <span class="fnum">C</span>
+          <div>
+            <h3>Torque vectoring</h3>
+            <p>The RS motor adjusts delivery mid-corner, putting power down exactly where the tire has grip.</p>
+          </div>
+        </div>
+        <div class="feature">
+          <span class="fnum">D</span>
+          <div>
+            <h3>Over-the-air tuning</h3>
+            <p>Throttle map, regen strength, and ride modes update from the app — the bike gets better while it's parked.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- QUOTE -->
+  <section class="quote-sec" style="border-bottom:1px solid var(--line); padding-top:90px; padding-bottom:90px;">
+    <div class="wrap">
+      <blockquote>The first bike that's made me stop thinking about the engine — because there isn't one to think about. It just goes.</blockquote>
+      <p class="quote-attr">— R. Sokha, AMPERE RS owner, Phnom Penh</p>
+    </div>
+  </section>
+
+  <!-- CTA / RESERVE -->
+  <section id="reserve" style="border-bottom:none;">
+    <div class="wrap cta-sec">
+      <div>
+        <p class="eyebrow">— Reserve your build slot</p>
+        <h2>Configuration opens before delivery.</h2>
+        <p>Put down a fully refundable deposit to lock your place in the build queue. We'll email you when your model's configurator goes live.</p>
+      </div>
+      <div>
+        <form class="cta-form" onsubmit="event.preventDefault();">
+          <input type="email" placeholder="you@email.com" required aria-label="Email address">
+          <button type="submit">Reserve — $100</button>
+        </form>
+        <p class="cta-fine">Deposit fully refundable. No obligation to purchase. Reservations processed in order received.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-top">
+      <div class="foot-brand">
+        <div class="logo">AMPERE<span>.</span></div>
+        <p>Electric motorcycles designed and assembled with a modular, service-first drivetrain. Built to be ridden for a decade, not a lease term.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Models</h4>
+        <ul>
+          <li><a href="#models">Ampere One</a></li>
+          <li><a href="#models">Ampere RS</a></li>
+          <li><a href="#models">Ampere X</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#technology">Technology</a></li>
+          <li><a href="#specs">Spec sheet</a></li>
+          <li><a href="#reserve">Reserve a build</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Find a dealer</a></li>
+          <li><a href="#">Warranty</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 AMPERE MOTOR CO. ALL RIGHTS RESERVED.</span>
+      <span>DESIGNED &amp; BUILT ELECTRIC.</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
